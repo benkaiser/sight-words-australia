@@ -66,4 +66,6 @@ Levels unlock when 80% of the current level's words are mastered.
 
 ## Licence
 
-MIT
+[FSL-1.1-MIT](LICENSE.md) — Functional Source License, Version 1.1, MIT Future License
+
+Copyright 2026 Benjamin Kaiser
