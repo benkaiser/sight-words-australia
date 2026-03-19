@@ -835,8 +835,9 @@ class _SentenceFillActivityState extends State<_SentenceFillActivity> {
   void initState() {
     super.initState();
     // Replace _word_ with ___
-    _displaySentence =
-        widget.sentence.replaceAll('_${widget.word.word}_', '______');
+    _displaySentence = widget.sentence.replaceAll(
+        RegExp('_${RegExp.escape(widget.word.word)}_', caseSensitive: false),
+        '______');
 
     final others = widget.allWords
         .where((w) => w.word != widget.word.word)
@@ -895,7 +896,7 @@ class _SentenceFillActivityState extends State<_SentenceFillActivity> {
             padding: const EdgeInsets.all(24),
             child: Text(
               _answered
-                  ? widget.sentence.replaceAll('_${widget.word.word}_', widget.word.word).replaceAll('_', '')
+                  ? widget.sentence.replaceAll(RegExp('_${RegExp.escape(widget.word.word)}_', caseSensitive: false), widget.word.word).replaceAll('_', '')
                   : _displaySentence,
               textAlign: TextAlign.center,
               style: const TextStyle(fontSize: 28, color: AppTheme.textDark),

@@ -294,7 +294,7 @@ class WordBank {
     'thing': 'What is that _thing_?',
     'much': 'Thank you so _much_.',
     'who': '_Who_ is that?',
-    'as': 'As big _as_ me.',
+    'as': 'Not _as_ big.',
 
     // List 8
     'family': 'I love my _family_.',
@@ -338,7 +338,7 @@ class WordBank {
     'side': 'On this _side_.',
     'sit': '_Sit_ down please.',
     'think': 'I _think_ so.',
-    'round': 'Go _round_ and _round_.',
+    'round': 'We went _round_ the tree.',
     'same': 'We are the _same_.',
     'sat': 'I _sat_ down.',
     'save': '_Save_ it for later.',
