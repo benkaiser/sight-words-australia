@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Background - warm cream -->
+  <rect width="1024" height="1024" rx="224" fill="#FFF8F0"/>
+
+  <!-- Book shape - soft green -->
+  <g transform="translate(512, 500) scale(1.7)">
+    <!-- Left page -->
+    <path d="M-220,-180 C-220,-180 -20,-160 -10,-140 L-10,200 C-10,200 -180,180 -220,190 Z" fill="#5B8C5A" opacity="0.85"/>
+    <!-- Right page -->
+    <path d="M220,-180 C220,-180 20,-160 10,-140 L10,200 C10,200 180,180 220,190 Z" fill="#5B8C5A"/>
+    <!-- Spine -->
+    <rect x="-10" y="-140" width="20" height="340" fill="#4A7A49" rx="4"/>
+  </g>
+
+  <!-- Letter "a" on left page -->
+  <text x="360" y="550" font-family="Arial Rounded MT Bold" font-size="280" fill="#FFF8F0" stroke="#FFF8F0" stroke-width="8" text-anchor="middle">a</text>
+
+  <!-- Letter "b" on right page -->
+  <text x="660" y="550" font-family="Arial Rounded MT Bold" font-size="280" fill="#FFF8F0" stroke="#FFF8F0" stroke-width="8" text-anchor="middle">b</text>
+
+  <!-- Star accent - gold, top right -->
+  <g transform="translate(870, 160) scale(1.6)">
+    <polygon points="0,-50 14,-16 50,-16 22,6 34,42 0,22 -34,42 -22,6 -50,-16 -14,-16" fill="#FFD166"/>
+  </g>
+
+  <!-- Star - top left -->
+  <g transform="translate(170, 190) scale(1.1)">
+    <polygon points="0,-50 14,-16 50,-16 22,6 34,42 0,22 -34,42 -22,6 -50,-16 -14,-16" fill="#FFD166" opacity="0.7"/>
+  </g>
+
+  <!-- Star - bottom right -->
+  <g transform="translate(880, 820) scale(0.9)">
+    <polygon points="0,-50 14,-16 50,-16 22,6 34,42 0,22 -34,42 -22,6 -50,-16 -14,-16" fill="#E8A87C" opacity="0.6"/>
+  </g>
+</svg>
